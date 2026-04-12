@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: beef
+    env: ruby
+    buildCommand: bundle install
+    startCommand: bundle exec beef
+    plan: free
