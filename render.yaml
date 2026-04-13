@@ -3,5 +3,5 @@ services:
     name: beef
     env: ruby
     buildCommand: bundle install
-    startCommand: bundle exec beef
+    startCommand: bundle exec rackup -p $PORT
     plan: free
